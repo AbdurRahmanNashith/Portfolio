@@ -12,7 +12,7 @@ const projects = [
       "Shoestyle is a full-featured web application built for showcasing and selling stylish footwear. It is built with React, MongoDB, Redux, Stripe, Express, and Node.js.",
     image: "1.png",
     github: "https://github.com/MohammedFarmaan/React-Ecommerce-Website",
-    deployed: "https://project-one.com",
+    deployed: "#",
   },
   // {
   //   title: "Project Two",
@@ -27,8 +27,7 @@ const projects = [
       "A simple React task tracker built using React Hooks, json-server.",
     image: "8.png",
     github: "https://github.com/MohammedFarmaan/react-task-tracker",
-    deployed:
-      "https://react-task-tracker-ldd9oepex-mohammedfarmaans-projects.vercel.app/",
+    deployed: "https://react-task-tracker-lyart.vercel.app",
   },
   {
     title: "Team Talk",
