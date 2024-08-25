@@ -89,7 +89,7 @@ export default function Home() {
       <main className="pt-24 bg-white dark:bg-black min-h-screen">
         <div className="flex flex-col items-center justify-center">
           {/* Hero Section */}
-          <section className="relative flex items-center justify-center min-h-screen text-center bg-white dark:bg-black overflow-hidden">
+          <section className="relative z-10 flex items-center justify-center min-h-screen text-center bg-white dark:bg-black overflow-hidden">
             {/* Gradient Circle 1 */}
             <div className="absolute w-[400px] h-[400px] rounded-full bg-gradient-to-r from-teal-400 to-transparent opacity-40 filter blur-3xl animate-subtle-move-up-left"></div>
 
@@ -100,7 +100,7 @@ export default function Home() {
             <div className="absolute w-[350px] h-[350px] rounded-full bg-gradient-to-r from-yellow-300 to-transparent opacity-40 filter blur-3xl animate-subtle-move-down-right"></div>
 
             {/* Hero Text */}
-            <div className="relative z-10 space-y-4">
+            <div className="relative z-10 space-y-4 bg-transparent">
               <h1 className="text-5xl font-bold text-gray-900 dark:text-white">
                 Mohammed Farmaan
               </h1>
