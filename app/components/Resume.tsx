@@ -2,7 +2,7 @@ import React from "react";
 
 const Resume = () => {
   const handleMailClick = () => {
-    window.location.href = "mailto:mohammed.farmaan.k@gmail.com";
+    window.location.href = "mailto:abdur.nashith7739k@gmail.com";
   };
 
   return (
@@ -13,7 +13,7 @@ const Resume = () => {
         </h2>
         <div className="flex justify-center space-x-4">
           <a
-            href="https://drive.google.com/file/d/1mazaM4QVB8MMe09CsdwLNjti7uK4TnqH/view?usp=sharing"
+            href="https://drive.google.com/file/d/1xbomXCpJ1vs27sEYyRpqtWAc_sACZKSW/view?usp=drivesdk"
             download
             className="inline-block px-6 py-3 bg-gray-500 dark:bg-gray-800 text-white font-semibold rounded-lg shadow-md hover:bg-black dark:hover:bg-gray-400 transition-colors"
           >

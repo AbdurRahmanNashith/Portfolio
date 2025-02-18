@@ -9,9 +9,9 @@ const projects = [
   {
     title: "Shoestyle",
     description:
-      "Shoestyle is a full-featured web application built for showcasing and selling stylish footwear. It is built with React, MongoDB, Redux, Stripe, Express, and Node.js.",
+      "A full-stack e-commerce website for leather shoes and accessories, developed with ReactJS, SASS, and Strapi, featuring Stripe integration for secure payments and a smooth checkout experience.",
     image: "1.png",
-    github: "https://github.com/MohammedFarmaan/React-Ecommerce-Website",
+    github: "https://github.com/AbdurRahmanNashith/ShoeStore",
     deployed: "#",
   },
   // {
@@ -22,64 +22,72 @@ const projects = [
   //   deployed: "https://project-two.com",
   // },
   {
-    title: "MyTasks",
+    title: "ICON2K24",
     description:
-      "A simple React task tracker built using React Hooks, json-server.",
+      "A web application for managing college fest events, built with NextJS and TailwindCSS, enabling student registration and GPay payments, with an admin portal for verifying registrations and managing event details, and automated email confirmations with QR code tickets using Nodemailer..",
     image: "8.png",
-    github: "https://github.com/MohammedFarmaan/react-task-tracker",
-    deployed: "https://react-task-tracker-lyart.vercel.app",
+    github: "https://github.com/AbdurRahmanNashith/icon2k24",
+    deployed: "https://icon2k24.vercel.app/",
   },
   {
-    title: "Team Talk",
+    title: "QuizApp",
     description:
-      "Real time Chat application using Java, Web sockets and Spring Boot",
+      "A simple animated quiz app built with HTML, CSS, and JavaScript, featuring a sleek dark-themed background. Designed for an engaging user experience with smooth animations and interactive elements.",
     image: "3.png",
-    github: "https://github.com/MohammedFarmaan/spring-boot-websocket-chat-app",
+    github: "https://github.com/AbdurRahmanNashith/Quiz-App",
     deployed: "#",
   },
   {
-    title: "Pong Game",
+    title: "Face Check",
     description:
-      "Java implementation of the Pong game using Java Swing and AWT.",
+      "A real-time attendance tracking system using Python, OpenCV2, dlib, and Firebase, featuring facial recognition for seamless identification, last attendance time, total days present, and department-wise record updates.",
     image: "7.png",
-    github: "https://github.com/MohammedFarmaan/Java-pong-game",
+    github: "https://github.com/AbdurRahmanNashith/FaceCheck",
     deployed: "#",
   },
   {
-    title: "QR Gen",
+    title: "Organic Trace",
     description:
-      "A simple and responsive web application to generate and save the QR code for ease of sharing information such as links, photos, videos from various sites.",
+      "A DApp for securely storing and retrieving farming details like crops, cultivation methods, and practices, featuring SHA-256 encryption, Metamask integration for authentication, and a QR code system for consumer access to detailed farming information.",
     image: "4.jpeg",
-    github: "https://github.com/MohammedFarmaan/QrGen?tab=readme-ov-file",
-    deployed: "https://codepen.io/Farmaan/pen/mdLPZBg",
-  },
-  {
-    title: "Passcode Generator",
-    description:
-      "A random alphanumeric passcode generator ranging from 8 to 36 Alphanumeric characters which can be easily copied to your clipboard.",
-    image: "5.png",
-    github: "https://github.com/MohammedFarmaan/Passcode-Generator",
-    deployed: "https://codepen.io/Farmaan/pen/gOzMOXN",
-  },
-  {
-    title: "Spotify-Playlist-Automation",
-    description:
-      "A simple program which saves all songs from my Spotify Anime Hits playlist at the end of each week before they are automatically removed.",
-    image: "6.png",
-    github: "https://github.com/MohammedFarmaan/Spotify-Playlist-Automation",
+    github: "https://github.com/AbdurRahmanNashith/organicTrace-II",
     deployed: "#",
   },
+  {
+    title: "Nash Charity",
+    description:
+      "A simple charity website built with basic HTML and CSS, integrated with Stripe for secure online donations.",
+    image: "5.png",
+    github: "https://github.com/AbdurRahmanNashith/NashCharity",
+    deployed: "https://abdurrahmannashith.github.io/NashCharity/",
+  },
+
 ];
 
 const experience = [
   {
-    role: "Software Developer ",
-    company: "Tactii",
-    duration: "April 2023 - December 2023",
+    role: "Full-Stack Developer",
+    company: "ETRENDZ",
+    duration: "August 2024 - December 2024",
     description:
-      "During my internship at Tactii, I gained practical experience in software development by working on various impactful projects. I developed an Interns Attendance Tracker, which improved time management and accuracy, and created a secure platform for employee requests, enhancing engagement. I also contributed to feature enhancements that boosted user satisfaction and traffic. This role allowed me to strengthen my skills in Java, Spring Boot, MySQL, and full-stack development, while collaborating effectively with my team.",
+      "Developed a web-based inventory management and sales system that handled all transaction processes, including sales, purchases, returns, and warehouse stock details. Led a team of three to develop a web application with NextJS and TailwindCSS, optimizing student registration and payment processes via GPay, increasing event participation by 40%.",
+  },
+  {
+    role: "Full-Stack Developer | Network Engineer",
+    company: "SHOE STYLE",
+    duration: "September 2023 - March 2024",
+    description:
+      "Designed and implemented a plan to digitize daily operations, including inventory tracking, sales, and transaction processes across multiple branches. Developed a custom Point-of-Sale (POS) system to streamline in-store and online sales operations, ensuring real-time updates on stock and sales. Set up a site-to-site VPN connection to secure data flow between branches, ensuring information remained protected. Trained and supported staff on new digital systems, improving efficiency and technology adoption by 30%.",
+  },
+  {
+    role: "Web Developer",
+    company: "The Sparks Foundation",
+    duration: "May 2023 - June 2023",
+    description:
+      "Developed a full-stack donation website for providing food, education, and medicine to children. Created an interactive user interface using React, HTML, CSS, and SASS with an integrated payment gateway for secure online donations.",
   },
 ];
+
 export default function Home() {
   return (
     <div>
@@ -102,7 +110,7 @@ export default function Home() {
             {/* Hero Text */}
             <div className="relative z-10 space-y-4 bg-transparent">
               <h1 className="text-5xl font-bold text-gray-900 dark:text-white">
-                Mohammed Farmaan
+                Abdur Rahman Nashith C
               </h1>
               <p className="text-2xl text-gray-600 dark:text-gray-300">
                 Full Stack Developer | Software Engineer | Computer Science
@@ -145,26 +153,16 @@ export default function Home() {
               About
             </h2>
             <p className="text-lg text-gray-700 dark:text-gray-400 leading-relaxed">
-              I am Mohammed Farmaan, a passionate and driven software developer
-              with a strong foundation in both front-end and back-end
-              technologies. With a Master&apos;s degree in Computer Applications
-              and hands-on experience in Java, Spring Boot, and full-stack
-              development, I specialize in creating innovative and scalable
-              solutions.
+              I am Abdur Rahman, a passionate and driven software developer with a strong foundation in web development, blockchain, and IT infrastructure. With a B.Tech in Information Technology from BS Abdur Rahman Crescent Institute of Science and Technology, Chennai, I have hands-on experience in developing scalable and efficient solutions.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-400 leading-relaxed mt-4">
-              My journey includes developing diverse projects, from enhancing
-              time management systems to building secure platforms and engaging
-              web applications. I thrive in collaborative environments and am
-              always eager to tackle new challenges that push the boundaries of
-              technology. future.
+              My journey includes building full-stack web applications, custom POS systems, and DApps on the Ethereum blockchain. I have developed secure inventory and sales management systems, integrated Metamask authentication, and implemented real-time data tracking solutions.
             </p>
             <p className="text-lg text-gray-700 dark:text-gray-400 leading-relaxed mt-4">
-              Skilled in a range of technologies including React, Next.js,
-              Node.js, and various databases, I am dedicated to delivering
-              high-quality software that meets user needs and exceeds
-              expectations. I am excited about the opportunity to contribute my
-              expertise to dynamic teams and continue growing as a developer.
+              Skilled in React, Next.js, Node.js, Python, and SQL, I am committed to creating user-friendly, high-performance software that drives innovation. I thrive in collaborative environments and am always eager to take on new challenges that push the boundaries of technology.
+
+
+
             </p>
           </section>
           {/* Experience Section */}

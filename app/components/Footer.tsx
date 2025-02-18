@@ -32,7 +32,7 @@ const Footer = () => {
     <footer className=" text-black dark:text-gray-300 py-4 bottom-0 left-0 w-full">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
         {/* Copyright */}
-        <p className="text-sm">© {currentYear} Mohammed Farmaan</p>
+        <p className="text-sm">© {currentYear} Abdur Rahman Nashith</p>
 
         {/* Time Information */}
         <div className="text-center">
@@ -43,7 +43,7 @@ const Footer = () => {
         {/* Social Links */}
         <div className="flex space-x-4">
           <a
-            href="https://www.linkedin.com/in/mohammed-farmaan-k"
+            href="https://www.linkedin.com/in/abdurrahmannashith/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-gray-300 dark:hover:text-gray-200 transition-colors"
@@ -51,21 +51,14 @@ const Footer = () => {
             LinkedIn
           </a>
           <a
-            href="https://github.com/MohammedFarmaan"
+            href="https://github.com/AbdurRahmanNashith"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-500 hover:text-gray-300 dark:hover:text-gray-200 transition-colors"
           >
             GitHub
           </a>
-          <a
-            href="https://leetcode.com/u/farmaan57/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-500 hover:text-gray-300 dark:hover:text-gray-200 transition-colors"
-          >
-            Leetcode
-          </a>
+          
         </div>
       </div>
     </footer>

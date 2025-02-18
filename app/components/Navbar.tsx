@@ -21,7 +21,7 @@ export default function Navbar() {
           {/* Logo */}
           <div>
             <Link href="/" className="text-2xl font-bold gradient-text">
-              Mohammed Farmaan
+              Abdur Rahman Nashith 
             </Link>
           </div>
 
