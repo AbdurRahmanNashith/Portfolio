@@ -2,7 +2,7 @@ import React from "react";
 
 const Resume = () => {
   const handleMailClick = () => {
-    window.location.href = "mailto:abdur.nashith7739k@gmail.com";
+    window.location.href = "mailto:abdur.nashith7739@gmail.com";
   };
 
   return (
